@@ -14,13 +14,13 @@ macro_word_right: macro_word_right{
 compatible = "zmk,behavior-macro";
 label = "macro_word_right";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_CONTROL>, <&kp RIGHT>;
+bindings = <&kp LEFT_CONTROL>, <&kp RIGHT>;
 };
 macro_word_left: macro_word_left{
 compatible = "zmk,behavior-macro";
 label = "macro_word_left";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_CONTROL>, <&kp LEFT>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT>;
 };
 macro_deselect_word: macro_deselect_word{
 compatible = "zmk,behavior-macro";
