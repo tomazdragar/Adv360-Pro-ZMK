@@ -41,7 +41,7 @@
             bindings = <
       &kp ESC     &kp N1         &kp N2    &kp N3    &kp N4  &kp N5              &lt 1 LEFT_BRACKET                                                                                 &kp RIGHT_BRACKET  &kp N6    &kp N7     &kp N8   &kp N9     &kp N0  &kp MINUS
       &kp TAB      &kp Q          &kp W     &kp E     &kp R   &kp T                &lt 2 LEFT_BRACE                                                                                   &kp RIGHT_BRACE   &kp Y     &kp U      &kp I    &kp O      &kp P  &kp EQUAL
- &kp CAPSLOCK      &kp A          &kp S     &kp D     &kp F   &kp G            &kp LEFT_PARENTHESIS             &tog 3     &kp LALT                    &kp LGUI  &kp RIGHT_ALT  &kp RIGHT_PARENTHESIS   &kp H     &kp J      &kp K    &kp L   &kp SEMI    &kp SQT
+ &kp CAPSLOCK      &kp A          &kp S     &kp D     &kp F   &kp G            &kp LEFT_PARENTHESIS              &to 3     &kp LALT                    &kp LGUI  &kp RIGHT_ALT  &kp RIGHT_PARENTHESIS   &kp H     &kp J      &kp K    &kp L   &kp SEMI    &kp SQT
     &kp LSHFT      &kp Z          &kp X     &kp C     &kp V   &kp B                                                     &kp K_PASTE                  &kp K_REDO                                         &kp N     &kp M  &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
         &none  &kp GRAVE  &kp BACKSLASH  &kp LBKT  &kp RBKT                                &kp BSPC  &kp RIGHT_CONTROL   &kp K_COPY                  &kp K_UNDO    &lt 2 ENTER              &kp SPACE          &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT     &tog 0
             >;
@@ -67,13 +67,13 @@
             >;
         };
 
-        layer_mod {
+        layer_navigation {
             bindings = <
   &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                               &trans     &none         &none          &none        &none          &none    &none
   &none         &none         &none         &none         &none         &none            &bootloader                                                                          &bootloader     &none         &none   &kp RC(DOWN)   &kp RC(UP)          &none    &none
-  &none         &none         &none         &none         &none         &none                  &none  &tog 0   &none                  &bt BT_CLR  &rgb_ug RGB_TOG  &rgb_ug RGB_MEFS_CMD 5  &kp HOME  &kp RC(LEFT)       &kp DOWN       &kp UP  &kp RC(RIGHT)  &kp END
-  &none         &none         &none         &none         &none         &none                                  &none                       &none                                              &none      &kp LEFT  &kp PAGE_DOWN  &kp PAGE_UP      &kp RIGHT    &none
-  &none         &none         &none         &none         &none                                &none   &none   &none                       &none       &bl BL_TOG           &kp RC(SPACE)              &bl BL_INC     &bl BL_DEC        &none          &none    &none
+  &none         &none         &none         &none         &none         &none                  &none   &to 0  &trans                  &bt BT_CLR  &rgb_ug RGB_TOG  &rgb_ug RGB_MEFS_CMD 5  &kp HOME  &kp RC(LEFT)       &kp DOWN       &kp UP  &kp RC(RIGHT)  &kp END
+  &none         &none         &none         &none         &none         &none                                 &trans                      &trans                                              &none      &kp LEFT  &kp PAGE_DOWN  &kp PAGE_UP      &kp RIGHT    &none
+  &none         &none         &none         &none         &none                               &trans  &trans  &trans                      &trans       &bl BL_TOG                  &trans              &bl BL_INC     &bl BL_DEC        &none          &none    &none
             >;
         };
 
