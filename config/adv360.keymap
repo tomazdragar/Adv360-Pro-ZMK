@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-      &kp ESC     &kp N1         &kp N2  &kp N3  &kp N4  &kp N5                      &none                                                                                  &none  &kp N6    &kp N7     &kp N8   &kp N9     &kp N0  &kp MINUS
-      &kp TAB      &kp Q          &kp W   &kp E   &kp R   &kp T                      &none                                                                                  &none   &kp Y     &kp U      &kp I    &kp O      &kp P  &kp EQUAL
- &kp CAPSLOCK      &kp A          &kp S   &kp D   &kp F   &kp G                      &none         &kp DELETE   &kp LALT                       &kp LGUI  &kp RIGHT_ALT      &none   &kp H     &kp J      &kp K    &kp L   &kp SEMI    &kp SQT
-    &kp LSHFT      &kp Z          &kp X   &kp C   &kp V   &kp B                                                &kp RC(V)                  &kp RC(RS(Z))                             &kp N     &kp M  &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-        &none  &kp GRAVE  &kp BACKSLASH   &none   &none                    &lt 3 BACKSPACE  &kp RIGHT_CONTROL  &kp RC(C)                      &kp RC(Z)    &lt 2 ENTER  &kp SPACE          &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT   &kp PIPE
+      &kp ESC     &kp N1         &kp N2  &kp N3  &kp N4  &kp N5                    &none                                                                                 &none  &kp N6    &kp N7     &kp N8   &kp N9     &kp N0  &kp MINUS
+      &kp TAB      &kp Q          &kp W   &kp E   &kp R   &kp T                    &none                                                                                 &none   &kp Y     &kp U      &kp I    &kp O      &kp P  &kp EQUAL
+ &kp CAPSLOCK      &kp A          &kp S   &kp D   &kp F   &kp G                    &none       &lt 3 DELETE  &kp LALT                       &kp LGUI  &kp RIGHT_ALT      &none   &kp H     &kp J      &kp K    &kp L   &kp SEMI    &kp SQT
+    &kp LSHFT      &kp Z          &kp X   &kp C   &kp V   &kp B                                              &kp HOME                  &kp RC(RS(Z))                             &kp N     &kp M  &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+        &none  &kp GRAVE  &kp BACKSLASH   &none   &none                    &kp BACKSPACE  &kp RIGHT_CONTROL   &kp END                      &kp RC(Z)    &lt 3 ENTER  &kp SPACE          &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT   &kp PIPE
             >;
         };
 
@@ -69,11 +69,11 @@
 
         layer_navigation {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                               &trans     &none         &none          &none        &none          &none    &none
-  &none         &none         &none         &none          &none         &none            &bootloader                                                                          &bootloader     &none         &none   &kp RC(DOWN)   &kp RC(UP)          &none    &none
-  &none         &none         &none         &none          &none         &none                  &none  &trans  &trans                  &bt BT_CLR  &rgb_ug RGB_TOG  &rgb_ug RGB_MEFS_CMD 5  &kp HOME  &kp RC(LEFT)       &kp DOWN       &kp UP  &kp RC(RIGHT)  &kp END
-  &none         &none         &none         &none          &none         &none                                 &trans                      &trans                                              &none      &kp LEFT  &kp PAGE_DOWN  &kp PAGE_UP      &kp RIGHT    &none
-  &none         &none         &none         &none  &kp BACKSPACE                               &trans  &trans  &trans                      &trans       &bl BL_TOG                  &trans              &bl BL_INC     &bl BL_DEC        &none          &none    &none
+ &kp F1             &kp F2            &kp F3                 &kp F4           &kp F5  &kp F6                  &none                                                                               &trans  &kp F7        &kp F8         &kp F9      &kp F10        &kp F11  &kp F12
+  &none              &none             &none                  &none            &none   &none            &bootloader                                                                          &bootloader   &none      &kp LEFT   &kp RC(DOWN)   &kp RC(UP)      &kp RIGHT    &none
+  &none   &kp LEFT_BRACKET     &kp LESS_THAN   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &none                  &none  &trans  &trans                  &bt BT_CLR  &rgb_ug RGB_TOG  &rgb_ug RGB_MEFS_CMD 5   &none  &kp RC(LEFT)       &kp DOWN       &kp UP  &kp RC(RIGHT)    &none
+  &none  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &none                                 &trans                      &trans                                            &none      &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP        &kp END    &none
+  &none              &none             &none                  &none            &none                         &trans  &trans  &trans                      &trans       &bl BL_TOG                  &trans            &bl BL_INC     &bl BL_DEC        &none          &none    &none
             >;
         };
 
