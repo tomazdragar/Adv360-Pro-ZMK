@@ -70,11 +70,11 @@
 
         layer_navigation {
             bindings = <
-            &kp F1             &kp F2            &kp F3                 &kp F4           &kp F5             &kp F6            &bootloader                                                                      &bootloader  &kp F7        &kp F8         &kp F9      &kp F10        &kp F11  &kp F12
- &kp DOUBLE_QUOTES    &kp RIGHT_BRACE     &kp SEMICOLON         &kp LEFT_BRACE         &kp PIPE  &kp RIGHT_BRACKET                  &none                                                                 &kp K_VOLUME_UP2   &none      &kp LEFT   &kp RC(DOWN)   &kp RC(UP)      &kp RIGHT    &none
-             &none   &kp LEFT_BRACKET     &kp LESS_THAN   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE              &none                  &none  &trans  &trans                  &bt BT_CLR  &rgb_ug RGB_TOG  &kp K_VOLUME_DOWN2   &none  &kp RC(LEFT)       &kp DOWN       &kp UP  &kp RC(RIGHT)    &none
-             &none  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE              &none                                 &trans                  &bt BT_NXT                                        &none      &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP        &kp END    &none
-             &none              &none             &none                  &none            &none                                    &trans  &trans  &trans                  &bt BT_PRV            &none              &trans            &bl BL_INC     &bl BL_DEC        &none          &none    &none
+            &kp F1             &kp F2            &kp F3                 &kp F4           &kp F5             &kp F6            &bootloader                                                                &bootloader  &kp F7        &kp F8         &kp F9      &kp F10        &kp F11  &kp F12
+ &kp DOUBLE_QUOTES    &kp RIGHT_BRACE     &kp SEMICOLON         &kp LEFT_BRACE         &kp PIPE  &kp RIGHT_BRACKET                  &none                                                               &kp C_VOL_UP   &none      &kp LEFT   &kp RC(DOWN)   &kp RC(UP)      &kp RIGHT    &none
+             &none   &kp LEFT_BRACKET     &kp LESS_THAN   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE              &none                  &none  &trans  &trans                  &bt BT_CLR  &rgb_ug RGB_TOG  &kp C_VOL_DN   &none  &kp RC(LEFT)       &kp DOWN       &kp UP  &kp RC(RIGHT)    &none
+             &none  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE              &none                                 &trans                  &bt BT_NXT                                  &none      &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP        &kp END    &none
+             &none              &none             &none                  &none            &none                                    &trans  &trans  &trans                  &bt BT_PRV            &none        &trans            &bl BL_INC     &bl BL_DEC        &none          &none    &none
             >;
         };
 
