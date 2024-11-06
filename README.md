@@ -12,7 +12,7 @@ Certain ZMK features (e.g. combos) require knowing the exact key positions in th
 
 ### Setup
 
-1. Fork this repo.
+1. Fork this repo.ĆčŠŽđđŽŠŠčĐĆ
 2. Enable GitHub Actions on your fork.
 
 ### Build firmware
