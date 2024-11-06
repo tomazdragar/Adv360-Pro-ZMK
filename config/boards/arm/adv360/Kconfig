@@ -5,3 +5,7 @@ config BOARD_ENABLE_DCDC
     select SOC_DCDC_NRF52X
     default y
     depends on BOARD_ADV360_LEFT || BOARD_ADV360_RIGHT
+
+config CONFIG_ZMK_BLE_EXPERIMENTAL_CONN
+    bool "Enables a combination of settings that are planned to be default in future versions of ZMK to improve connection stability. Currently this only disables 2M PHY support."
+    default y
