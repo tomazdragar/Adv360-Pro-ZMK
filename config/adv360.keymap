@@ -56,11 +56,11 @@
 
         layer_macos {
             bindings = <
-&kp TILDE      &kp N1     &kp N2     &kp N3     &kp N4     &kp N5  &kp RC(LS(E))                                                                      &to 0      &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp MINUS
-&kp DEL        &kp Q      &kp W      &kp E      &kp R      &kp T   &kp RC(E)                                                                          &kp F10    &kp Y   &kp U     &kp I      &kp O    &kp P      &kp EQUAL
+&kp TILDE      &kp N1     &kp N2     &kp N3     &kp N4     &kp N5  &kp LS(RG(E))                                                                      &to 0      &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp MINUS
+&kp DEL        &kp Q      &kp W      &kp E      &kp R      &kp T   &kp RG(E)                                                                          &kp F10    &kp Y   &kp U     &kp I      &kp O    &kp P      &kp EQUAL
 &kp CAPSLOCK   &kp A      &kp S      &kp D      &kp F      &kp G   &kp TAB        &kp LEFT_SHIFT  &kp ESC            &kp LEFT_CONTROL  &kp RIGHT_ALT  &kp F12    &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LSHFT      &kp Z      &kp X      &kp C      &kp V      &kp B                                  &kp RC(RS(Z))      &kp END                                     &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
-&kp BACKSLASH  &kp GRAVE  &kp RC(X)  &kp RC(C)  &kp RC(V)          &kp BACKSPACE  &kp LEFT_META   &kp RC(Z)          &kp HOME          &lt 1 ENTER    &kp SPACE          &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &kp PIPE
+&kp LSHFT      &kp Z      &kp X      &kp C      &kp V      &kp B                                  &kp RS(RG(Z))      &kp END                                     &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
+&kp BACKSLASH  &kp GRAVE  &kp RG(X)  &kp RG(C)  &kp RG(V)          &kp BACKSPACE  &kp LEFT_META   &kp RG(Z)          &kp HOME          &lt 1 ENTER    &kp SPACE          &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &kp PIPE
             >;
         };
     };
